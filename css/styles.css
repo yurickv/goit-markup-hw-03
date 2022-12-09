@@ -52,29 +52,31 @@ img {
     line-height: 1.3;
 
 }
-
+.nav-div{ margin-left: 77px;}
 .nav-link {color: var(--zagolovok); 
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;}
+    line-height: 1.5;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.auth-div{ margin-left: auto;}
 .auth-nav {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 
     display: flex;
-    margin-left: 291px;
+    
 }
 .auth-nav > li {margin-left: 40px;
 }
 .auth-list { color: var(--text);
 }
 .navigation { display: flex;
-    margin-left: 37px;
-
-    
 }
-.navigation > li { margin-left: 40px;
+
+.navigation > li:not(:first-child) { margin-left: 40px;
 }
 
 .nav-heder { display: flex; 
