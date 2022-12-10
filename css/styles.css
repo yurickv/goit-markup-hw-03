@@ -69,14 +69,17 @@ img {
     display: flex;
     
 }
-.auth-nav > li {margin-left: 40px;
+.auth-nav  > li + li  {margin-left: 40px;
 }
+
 .auth-list { color: var(--text);
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .navigation { display: flex;
 }
 
-.navigation > li:not(:first-child) { margin-left: 40px;
+.navigation > li { margin-left: 40px;
 }
 
 .nav-heder { display: flex; 
