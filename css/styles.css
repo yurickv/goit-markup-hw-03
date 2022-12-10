@@ -79,7 +79,7 @@ img {
 .navigation { display: flex;
 }
 
-.navigation > li { margin-left: 40px;
+.navigation > li:not(:first-child) { margin-left: 40px;
 }
 
 .nav-heder { display: flex; 
